@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public partial class MotionPlayer : MotionPlayerBase
 {
