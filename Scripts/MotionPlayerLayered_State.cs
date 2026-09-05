@@ -214,7 +214,7 @@ public partial class MotionPlayerLayered : MotionPlayerBase
         [SerializeField] AvatarMask _mask;
         [SerializeField] bool _additive = false;
         [SerializeField, Range(0.0f, 1.0f)] float _weight = 0.0f;
-        [SerializeField] AnimationState[] _states = new AnimationState[1];
+        [SerializeField] internal AnimationState[] _states = new AnimationState[1];
 
         public AvatarMask mask { get { return _mask; } }
         public bool additive { get { return _additive; } }
